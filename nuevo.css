@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet" )
-{
+*{
 	margin: 0;
 	padding: 0;
 	box-decoration: none ;
@@ -10,6 +10,7 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background:linear-gradient(red,orange,greenyellow,white) ;
 }
 
 img{
@@ -19,6 +20,7 @@ img{
 conteiner{
 	max-width: 1200px;
 	margin: 0 auto;
+
 
 }
 
@@ -42,14 +44,16 @@ conteiner{
 }
 .menu .navbar ul{
 	display: flex;
+	list-style: none;
+	background-color: greenyellow;
 }
 
 .menu .navbar ul li a {
 	font-size: 18px;
 	padding: 0 20px;
-	color: #1b1b1d;
-	display: black;
 	font-weight: 600;
+	background-color: greenyellow;
+
 }
 
 .menu .navbar ul li a:hover {
@@ -69,7 +73,33 @@ conteiner{
 	display: none;
 
 }
-
+.carrusel{
+	width: 1300px;
+	height: 700 px;
+	margin: 50 px auto 0;
+	padding:0 ;
+	overflow: hidden;
+}
+.carrusel ul{
+	display: flex;
+	padding: 0;
+	width: 500%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.carrusel li{
+	width: 100%;
+	list-style: none;
+}
+@keyframes slide{
+	0%{margin-left: o%;}
+	20%{margin-left: 0%}
+	25%{margin-left:-100%}
+	45%{margin-left: -100%}
+	50%{margin-left:-200%}
+	70%{margin-left: -200%}
+	75%{margin-left:-300%}
+	95%{margin-left: -300%}
+}
 .header-content{
 	display:flex;
 	justify-content: space-between;
@@ -108,7 +138,9 @@ p{
 .btn-1:hover{
 	background-color: #f38004;
 }
-
+header{
+	background:linear-gradient(black,blue,white,skyblue);
+}
 .header-img{
 	flex-basis: 50%;
 }
@@ -157,8 +189,8 @@ h2{
 }
 
 .recuerdos-1 {
-	background-color: #f7f7f7;
 	padding: 20px;
+  background-image: url(rg.gif);
 }
 
 .recuerdos-1 h4 {
@@ -175,6 +207,7 @@ h2{
 .testimonio {
 	text-align: center;
 	padding-bottom: 80px;
+	
 }
 
 .testimonio-content {
@@ -302,12 +335,10 @@ h2{
 	.testimonio {
 		padding: 30px;
 	}
-
 	.testmonio-content {
 		flex-direction: column;
 		margin-bottom: 30px;
 	}
-
 	.footer {
 		padding: 30px;
 		text-align: center;
@@ -315,11 +346,29 @@ h2{
 
 	.footer-content {
 		flex-direction:column ;
-	}
+	
+}
+.imagenes{
+	text-align: center;
+}
+.recuerdos-1 img{
+	transition: transform 0.5s;
+	box-shadow: 4px 4px 30px white;
 
-	.footer-content ul {
-		flex-direction: column;
-	}
+}
+.recuerdos-1 img:hover{
+	transform: scale(1.5);
 }
 
+@media(max-width: 768px){
+	.header{
+		flex-direction: column;
+	}
+	.menu-icono{
+		flex-direction: column;
+	
+	}
+	img{
+		width: 100%
+	}
 
