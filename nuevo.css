@@ -19,6 +19,7 @@ img{
 
 conteiner{
 	max-width: 1200px;
+	max-heigth: 1200px;
 	margin: 0 auto;
 
 
@@ -27,7 +28,8 @@ conteiner{
 .header{
 	background-color:#fffAF7 ;
 	width:100%;
-	max-width:1200px;
+	max-width:100%;
+	
 
 }
 
