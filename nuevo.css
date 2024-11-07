@@ -14,7 +14,7 @@ body{
 }
 
 img{
-	max-width: 50%;
+	max-width: 100%;
 }
 
 conteiner{
@@ -74,8 +74,8 @@ conteiner{
 
 }
 .carrusel{
-	width: 1300px;
-	height: 700 px;
+	width: 350px;
+	height: 200 px;
 	margin: 50 px auto 0;
 	padding:0 ;
 	overflow: hidden;
@@ -375,6 +375,6 @@ h2{
 	
 	}
 	img{
-		width: 50%
+		width: 100%
 	}
 }
