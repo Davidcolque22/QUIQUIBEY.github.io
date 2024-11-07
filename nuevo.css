@@ -21,10 +21,11 @@ conteiner{
 	max-width: 1200px;
 	margin: 0 auto;
 
+
 }
 
 .header{
-	background-color:#fffAF7 ;	
+	background-color:#fffAF7 ;
 
 }
 
@@ -73,8 +74,8 @@ conteiner{
 
 }
 .carrusel{
-	width: 350px;
-	height: 200 px;
+	width: 1300px;
+	height: 700 px;
 	margin: 50 px auto 0;
 	padding:0 ;
 	overflow: hidden;
@@ -273,9 +274,6 @@ h2{
 		position: relative;
 		flex-direction: column;
 	}
-	.carrusel ul img{
-		flex-direction: column;
-	}
 
 	.menu label {
 		display: initial;
@@ -366,7 +364,7 @@ h2{
 }
 
 @media(max-width: 768px){
-	.header{
+	.carrusel{
 		flex-direction: column;
 	}
 	.menu-icono{
