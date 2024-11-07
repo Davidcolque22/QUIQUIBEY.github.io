@@ -83,7 +83,7 @@ conteiner{
 .carrusel ul{
 	display: flex;
 	padding: 0;
-	width: 500%;
+	width: 100%;
 	animation: slide 20s infinite alternate ease-in-out;
 }
 .carrusel li{
