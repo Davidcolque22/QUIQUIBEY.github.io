@@ -76,8 +76,8 @@ conteiner{
 
 }
 .carrusel{
-	width: 1300 px;
-	height: 700 px;
+	width: 500 px;
+	height: 250 px;
 	margin: 50 px auto 0;
 	padding:0 ;
 	overflow: hidden;
@@ -85,7 +85,7 @@ conteiner{
 .carrusel ul{
 	display: flex;
 	padding: 0;
-	width: 100%;
+	width: 400%;
 	animation: slide 20s infinite alternate ease-in-out;
 }
 .carrusel li{
