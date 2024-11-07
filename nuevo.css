@@ -15,7 +15,7 @@ body{
 
 img{
 	max-width: 100%;
-	max-heigth:100%;
+	
 }
 
 conteiner{
@@ -26,7 +26,6 @@ conteiner{
 }
 
 .header{
-	width:100%;
 	background-color:#fffAF7 ;
 
 }
