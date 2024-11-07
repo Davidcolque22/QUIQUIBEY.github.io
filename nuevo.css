@@ -15,7 +15,6 @@ body{
 
 img{
 	max-width: 100%;
-	
 }
 
 conteiner{
@@ -39,7 +38,7 @@ conteiner{
 
 .logo{
 	color: #ff8400;
-	font-size: 45px;
+	font-size: 65px;
 	font-weight: 800;
 	text-transform: uppercase;
 }
@@ -66,7 +65,8 @@ conteiner{
 }
 
 .menu-icono{
-	width: 25 px;
+	width: 25px;
+
 }
 
 .menu label{
@@ -75,8 +75,8 @@ conteiner{
 
 }
 .carrusel{
-	width: 500 px;
-	height: 250 px;
+	width: 500px;
+	height: 250px;
 	margin: 50 px auto 0;
 	padding:0 ;
 	overflow: hidden;
@@ -365,9 +365,6 @@ h2{
 }
 
 @media(max-width: 768px){
-	.carrusel{
-		flex-direction: column;
-	}
 	.menu-icono{
 		flex-direction: column;
 	
