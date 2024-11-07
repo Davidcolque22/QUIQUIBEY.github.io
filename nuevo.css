@@ -25,6 +25,8 @@ conteiner{
 }
 
 .header{
+	max-width:100%;
+	width:100%;
 	background-color:#fffAF7 ;
 
 }
