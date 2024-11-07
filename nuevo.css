@@ -268,10 +268,11 @@ h2{
 	color: #ff8400;
 }
 
-@media(max-width:991px){
+@media(max-width:768px){
 	.menu {
 		padding: 20px;
 		position: relative;
+		flex-direction: column;
 	}
 
 	.menu label {
@@ -330,6 +331,7 @@ h2{
 	.products-content {
 		margin-top: 30px;
 		grid-template-columns: repeat(1, 1fr);
+		flex-direction:column ;
 	}
 
 	.testimonio {
@@ -342,11 +344,12 @@ h2{
 	.footer {
 		padding: 30px;
 		text-align: center;
+		flex-direction: column;
 	}
 
 	.footer-content {
 		flex-direction:column ;
-	
+	}
 }
 .imagenes{
 	text-align: center;
@@ -371,4 +374,4 @@ h2{
 	img{
 		width: 100%
 	}
-
+}
